@@ -1,3 +1,2 @@
-#!/usr/bin/python3
-chmod +x run_python.sh
-
+#!/bin/bash
+[ -z "$PYFILE" ] || [ ! -f "$PYFILE" ] || python "$PYFILE"
